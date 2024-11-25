@@ -1,21 +1,22 @@
-MIT License
+ Remoção em Tabelas Hashing
+A remoção de elementos em tabelas hashing é um aspecto crucial que impacta a eficiência e a integridade da estrutura de dados.
+As tabelas hashing utilizam diferentes métodos de resolução de conflitos, sendo os principais o encadeamento e o endereçamento aberto.
 
-Copyright (c) 2024 Gerson f. Ribeiro
+Métodos de Resolução de Conflitos
+Encadeamento: Cada posição da tabela contém uma lista ligada de elementos que colidiram. 
+A remoção de um elemento consiste em localizar o nó correspondente na lista e removê-lo.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+Endereçamento Aberto: Os elementos são armazenados diretamente na tabela. 
+A remoção pode ser complexa, pois é necessário marcar a posição como "removida" para não afetar a busca de outros elementos.
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+Processo de Remoção
+O processo de remoção envolve:
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+
+Busca: Localizar o elemento desejado usando a função hash.
+Remoção: Dependendo do método, remover o nó da lista (encadeamento) ou marcar a posição como removida (endereçamento aberto).
+
+
+Considerações
+A remoção deve ser realizada com cuidado para manter a performance da tabela e a consistência dos dados. 
+A rehashing pode ser necessária se a taxa de ocupação se tornar muito alta após múltiplas remoções.
