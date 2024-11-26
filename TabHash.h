@@ -8,7 +8,7 @@ using namespace std;
 // Declaração de funções
 void HASH_COSTRUTOR();
 
-void HASH_REMOVER(string chave);
+void HASH_REMOVER(string chave); // Adicione a declaração da função HASH_REMOVER://
 
 void AlmentarTabela();
 
