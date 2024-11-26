@@ -8,7 +8,7 @@
 #include <string>
 using namespace std;
 
-const int TAM = ;    //usado para definir o tamanho do array da Tabela hash. lembrar de fazer dinamico
+const int TAM = 45;    //usado para definir o tamanho do array da Tabela hash. lembrar de fazer dinamico
 
 // Declaração de funções
 void inicializarTabela(string tabela[]);

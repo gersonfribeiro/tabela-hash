@@ -39,7 +39,7 @@ void inserir(string tabela[], const string chave) {
 // Exibe o conteúdo da tabela hash
 void exibirTabela(const string tabela[]) {
     cout << "Tabela Hash:" << endl;
-    for (int i = 0; i < TAMANHO_TABELA; i++) {
+    for (int i = 0; i < TAM; i++) {
         cout << i << ": " << tabela[i] << endl;
     }
 }

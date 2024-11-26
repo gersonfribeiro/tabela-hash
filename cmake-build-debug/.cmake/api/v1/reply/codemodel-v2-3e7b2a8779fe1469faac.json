@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "C:/Users/Caio Moreira Cancela/Desktop/TabelaHash/cmake-build-debug",
-		"source" : "C:/Users/Caio Moreira Cancela/Desktop/TabelaHash"
+		"build" : "C:/Users/Caio Moreira Cancela/Desktop/tabela-hash/cmake-build-debug",
+		"source" : "C:/Users/Caio Moreira Cancela/Desktop/tabela-hash"
 	},
 	"version" : 
 	{
